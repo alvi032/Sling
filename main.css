@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+header a{
+    text-decoration: none;
+    color: white;
+
+}
+header h1{
+    color: white;
+    background-color: black;
+}
+header .container{
+    background-color: green;
+}
+header {
+    background-image: -moz-linear-gradient( -47deg, rgb(56,97,234) 0%, rgb(102,137,255) 100%);
+    background-image: -webkit-linear-gradient( -47deg, rgb(56,97,234) 0%, rgb(102,137,255) 100%);
+    background-image: -ms-linear-gradient( -47deg, rgb(56,97,234) 0%, rgb(102,137,255) 100%);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 50vh;
+    z-index: 6;
+    border-bottom-left-radius: 300% 100%;
+    border-bottom-right-radius: 300% 100%;
+}
+
+nav{
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    background-color: black;
+
+}
+nav ul li a{
+    padding: 1rem 0;
+    margin: 0 0.5rem;
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+}
